@@ -5,37 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- default favicon -->
+    <link rel="shortcut icon" href="images/coca-cola.ico" type="image/x-icon">
+    <!-- widely used favicon -->
+    <link rel="icon" href="images/coca-cola-32x32.png" sizes="32x32" type="image/png">
+    <!-- for apple mobile devices -->
+    <link rel="apple-touch-icon-precomposed" href="/images/coca-cola-152x152.png" type="image/png" sizes="152x152">
+    <link rel="apple-touch-icon-precomposed" href="/images/coca-cola-120x120.png" type="image/png" sizes="120x120">
+    <!-- google tv favicon -->
+    <link rel="icon" href="/images/coca-cola-96x96.png" sizes="96x96" type="image/png">
+    <title>The Coca-Cola Company</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div id="main">
+    <main>
 
         <div id="nav">
-            <h1><i class="ri-menu-fill"></i>menu</h1>
+
+            <h1><i class="ri-menu-fill"></i>Menu</h1>
+
             <div id="nav-prt2">
+
                 <h5>Drinks</h5>
                 <h5>Categories</h5>
                 <h5>Buy Franchise</h5>
 
-                <div id="line"></div>
+                <div class="line"></div>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coca-Cola_logo.svg/768px-Coca-Cola_logo.svg.png"
-                    alt="Coca Cola Logo">
-                <div id="line"></div>
+                    alt="Coca-Cola Logo">
+                <div class="line"></div>
 
                 <h5>Stores</h5>
                 <h5>Contact</h5>
                 <h5>Our Story</h5>
+
             </div>
+
             <i class="ri-search-line"></i>
+
         </div>
 
         <div id="content">
 
-            <img src="./images/coca-cola.png" alt="coca-cola bottle">
 
             <div id="left">
 
@@ -44,36 +58,34 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laboriosam totam dolor nihil
                     consequuntur pariatur?</p>
 
-                <div id="btn">
-                    <button><i class="ri-shopping-bag-3-line"></i> Taste Now</button>
-                    <div id="heart"><i class="ri-heart-line"></i></div>
-                </div>
+                <button id="btn"><i class="ri-shopping-bag-3-line"></i> Taste Now</button>
 
             </div>
 
             <div id="center">
                 <div id="center-bg"></div>
             </div>
+            <img src="./images/coca-cola-bottle.png" alt="coca-cola bottle">
 
             <div id="right">
                 <div id="right-elems">
 
 
-                    <div id="elem1">
+                    <div class="elem0">
 
                         <h1>Descriptions</h1>
                         <i class="ri-add-fill"></i>
 
                     </div>
 
-                    <div id="elem2">
+                    <div class="elem0">
 
                         <h1>Ingredients</h1>
                         <i class="ri-add-fill"></i>
 
                     </div>
 
-                    <div id="elem3">
+                    <div id="elem1">
 
                         <h1>Nutrients</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit earum quisquam corrupti
@@ -94,7 +106,8 @@
 
 
         </div>
-    </div>
+
+    </main>
 
 </body>
 
